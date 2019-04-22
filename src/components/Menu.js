@@ -19,9 +19,9 @@ import {
 } from '../utils';
 import type {
   InnerRef,
-    MenuPlacement,
-    MenuPosition,
-    CommonProps,
+  MenuPlacement,
+  MenuPosition,
+  CommonProps, OptionType,
 } from '../types';
 import type { Theme } from '../types';
 
@@ -342,6 +342,8 @@ export type MenuListProps = {
   children: Node,
   /** Inner ref to DOM Node */
   innerRef: InnerRef,
+  /** Focused option data */
+  focusedOption: OptionType | null,
 };
 export type MenuListComponentProps = CommonProps &
   MenuListProps &

@@ -1,4 +1,8 @@
 # React-Select
+## v2.5.0 / 2019-04-22
+### Features
+* `focusedOption` is now being passed as a prop to `MenuList`.
+
 ## v2.4.3 / 2019-03-17
 ### Bugfixes
 * [#3492](https://github.com/JedWatson/react-select/pull/3492) Add labels to fields to make inspection. [@destructobeam](https://github.com/destructobeam)
